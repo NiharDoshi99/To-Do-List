@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <head>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div>
+        <h1>To-Do List</h1>
+      </div>
+      <div class="input">
+        <input type="text" placeholder="Enter Task..." id="input1" />
+        <button class="addinput" onclick="AddItem()" onkeypress="AddItem()">
+          +
+        </button>
+      </div>
+      <div class="container1">
+        <ul id="myIL"></ul>
+      </div>
+      <div class="divider"></div>
+      <div class="container1">
+        <ul id="myCL"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="main.js">
+  </script>
+</html>
